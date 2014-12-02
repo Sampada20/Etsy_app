@@ -9,16 +9,19 @@ gem 'rails', '3.2.19'
   gem 'turbolinks'
   gem 'uglifier', '>= 1.0.3'
   gem "paperclip", "~> 3.0"
+  #gem "paperclip-dropbox", ">= 1.1.7"
 
   group :production do 
   	gem 'pg'
   	gem 'rails_12factor'
   end
+
   	group :develpoment, :test do
   	gem 'sqlite3'
   end
+
   	group :doc do
-  		gem'sdoc', require: false
+  		gem 'sdoc', require: false
 end
 
 
