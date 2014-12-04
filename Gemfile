@@ -11,14 +11,20 @@ gem 'rails', '3.2.19'
   gem "paperclip", "~> 3.0"
   #gem "paperclip-dropbox", ">= 1.1.7"
 
+
+
+
   group :production do 
-  	gem 'pg'
+  	gem 'pg', '0.17.1'
   	gem 'rails_12factor'
   end
 
-  	group :develpoment, :test do
-  	gem 'sqlite3'
-  end
+	#group :development do
+	#gem 'pg'
+	#end
+  	group :devlpoment, :test do
+  		gem 'sqlite3'
+  	end
 
   	group :doc do
   		gem 'sdoc', require: false
