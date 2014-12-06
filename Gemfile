@@ -9,7 +9,7 @@ gem 'rails', '3.2.19'
   gem 'turbolinks'
   gem 'uglifier', '>= 1.0.3'
   gem "paperclip", "~> 3.0"
-  #gem "paperclip-dropbox", ">= 1.1.7"
+  gem "paperclip-dropbox", ">= 1.1.7"
 
 
 
@@ -23,8 +23,7 @@ gem 'rails', '3.2.19'
 	#gem 'pg'
 	#end
   	group :devlpoment, :test do
-  		gem 'sqlite3-ruby','1.2.5',
-  		:require => 'sqlite3'
+  		gem 'sqlite3'
   	end
 
   	group :doc do
