@@ -22,9 +22,9 @@ gem 'rails', '3.2.19'
 	#group :development do
 	#gem 'pg'
 	#end
-  	group :devlpoment, :test do
-  		gem 'sqlite3'
-  	end
+  	#group :devlpoment, :test do
+  	#	gem 'sqlite3'
+  	#end
 
   	group :doc do
   		gem 'sdoc', require: false
