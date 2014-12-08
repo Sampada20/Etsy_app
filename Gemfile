@@ -15,8 +15,8 @@ gem 'rails', '3.2.19'
 
 
   group :production do 
-  	gem 'pg', '0.17.1'
-  	gem 'rails_12factor'
+  	gem 'pg'
+  	#gem 'rails_12factor'
   end
 
 	#group :development do
