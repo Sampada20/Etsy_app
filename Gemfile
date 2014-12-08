@@ -16,19 +16,16 @@ gem 'rails', '3.2.19'
 
   group :production do 
   	gem 'pg'
-  	#gem 'rails_12factor'
+  	gem 'rails_12factor'
   end
 
-	#group :development do
-	#gem 'pg'
-	#end
-  	#group :devlpoment, :test do
-  	#	gem 'sqlite3'
-  	#end
+ 	group :development, :test do
+ 		gem 'sqlite3'
+ 	end
 
-  	group :doc do
-  		gem 'sdoc', require: false
-end
+ 	group :doc do
+ 		gem 'sdoc', require: false
+  end
 
 
 
