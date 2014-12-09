@@ -6,7 +6,7 @@ class ListingsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @listings, :partial => 'partial_name', :formats => [:html] }
+      format.json { render json: @listings }
     end
   end
 
